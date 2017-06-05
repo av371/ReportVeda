@@ -2,7 +2,7 @@
 class SimpleGit
   
   def initialize(git_dir = '.')
-    @git_dir = File.expand_path(git_dir)
+    // @git_dir = File.expand_path(git_dir)
   end
   
   def show(treeish = 'master')
